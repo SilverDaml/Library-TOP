@@ -1,0 +1,16 @@
+/* Add your CSS styles here */
+.book {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .book p {
+    margin: 5px 0;
+  }
+  
+  .book button {
+    margin-top: 5px;
+  }
+  

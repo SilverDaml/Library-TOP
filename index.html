@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+ 
+</head>
+<body>
+  <div class="container mt-5">
+    <div id="library" class="row"></div>
+    <button id="new-book-btn" class="btn btn-primary mt-3">New Book</button>
+    <div id="new-book-form" style="display: none;">
+      <form id="book-form">
+        <div class="form-group">
+          <input type="text" class="form-control" id="title" placeholder="Title" required>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="author" placeholder="Author" required>
+        </div>
+        <div class="form-group">
+          <input type="number" class="form-control" id="pages" placeholder="Number of Pages" required>
+        </div>
+        <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="read">
+          <label class="form-check-label" for="read">Read</label>
+        </div>
+        <button type="submit" class="btn btn-success">Add Book</button>
+      </form>
+    </div>
+  </div>
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Custom JS -->
+  <script src="main.js"></script>
+</body>
+</html>
